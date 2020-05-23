@@ -33,15 +33,16 @@ const calculate = function () {
     leftDiv.style.transform = `translate(${-100 * pc}%, 0)`
     rightDiv.style.transform = `translate(${100 * pc}%, 0)`
     
-    // work out how gray between 0 and 255
-    // white is rgb(255, 255, 255)
-    // black is rgb(0, 0, 0)
-    // starting at white, 255, fading to black, 0
-    const gray = 255 - (255 * pc)
-    
+    // work out differences between two oranges
+    // light orange is rgb(249, 246, 222)
+    // dark orange is rgb(217, 134, 1)
+    const r = 249 - (33 * pc)
+    const g = 246 - (112 * pc)
+    const b = 222 - (221 * pc)
+
     // rgb me up
-    leftDiv.style.backgroundColor = `rgb(${gray}, ${gray}, ${gray})`
-    rightDiv.style.backgroundColor = `rgb(${gray}, ${gray}, ${gray})`
+    leftDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+    rightDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
   })
 }
 
