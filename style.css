@@ -1,0 +1,34 @@
+* { margin: 0; box-sizing: border-box; }
+
+body {
+  /* height 100% of the browser + 4 sections at 1500px minus one for the first visible one to scroll into   */
+  height: calc(100vh + 4500px);
+}
+
+section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  padding: 40px;
+  will-change: transform, background-color;
+}
+
+div:first-child {
+  text-align: right;
+}
+
+div:last-child {
+  left: auto;
+  right: 0;
+}
