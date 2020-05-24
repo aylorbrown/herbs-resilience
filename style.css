@@ -1,5 +1,20 @@
 * { margin: 0; box-sizing: border-box; }
 
+@font-face {
+    font-family: "Gangster Grotesk Regular";
+    src: url(type/GangsterGrotesk-Regular.otf)
+}
+
+@font-face {
+    font-family: "Gangster Grotesk Bold";
+    src: url(type/GangsterGrotesk-Bold.otf);
+}
+
+@font-face {
+    font-family: "Savate Regular";
+    src: url(type/savate-regular.otf)
+}
+
 body {
   /* height 100% of the browser + 10 sections at 1500px minus one for the first visible one to scroll into   */
   height: calc(100vh + 13500px);
@@ -31,12 +46,26 @@ div {
 }
 
 h1 {
-    font-size: 48px;
+    font-family: "Savate Regular";
+    color: #291cf5;
+    font-size: 52px;
+    letter-spacing: 4px;
 }
+
+h1.title {
+    padding: 20px;
+}
+
 p {
-    font-size: 36px;
+    font-family: "Gangster Grotesk Regular";
+    font-size: 34px;
     padding: 20px;
     text-align: justify;
+}
+
+p.footer {
+    font-size: 12px;
+    
 }
 
 
