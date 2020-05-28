@@ -68,6 +68,10 @@ p.footer {
     
 }
 
+img.poppy {
+  border: 5px solid #d47233;
+}
+
 
 
 div:first-child {

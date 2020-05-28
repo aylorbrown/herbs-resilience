@@ -34,11 +34,11 @@ const calculate = function () {
     rightDiv.style.transform = `translate(${100 * pc}%, 0)`
     
     // work out differences between two oranges
-    // light orange is rgb(237, 195, 88)
+    // light orange is rgb(248, 245, 221)
     // dark orange is rgb(217, 134, 1)
-    const r = 237 - (20 * pc)
-    const g = 195 - (61 * pc)
-    const b = 88 - (87 * pc)
+    const r = 248 - (31 * pc)
+    const g = 245 - (111 * pc)
+    const b = 221 - (220 * pc)
 
     // rgb me up
     leftDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
