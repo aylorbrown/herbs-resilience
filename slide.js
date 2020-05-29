@@ -1,13 +1,13 @@
 const sections = document.querySelectorAll("section")
 
-// nice easing!
+// easing!
 const easeInCubic = function(x) {
   return x * x * x;
 }
 
-// work it out on scroll
+// on scroll
 const calculate = function () {
-  // how many pixels down the page are we?
+// how many pixels down the page
   const pixels = window.pageYOffset
   
   sections.forEach((section, index) => {
@@ -40,7 +40,7 @@ const calculate = function () {
     const g = 245 - (111 * pc)
     const b = 221 - (220 * pc)
 
-    // rgb me up
+    // rgb it up
     leftDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
     rightDiv.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
   })

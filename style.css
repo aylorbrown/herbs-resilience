@@ -78,7 +78,6 @@ a.repo {
   text-decoration: none;
 
   border: 2px solid #291cf5;
-  background-color: #d98601;
 
   position: absolute;
   bottom: 10px;
@@ -91,7 +90,7 @@ p.footer {
 }
 
 
-img.poppy {
+img.plant {
   border: 5px solid #d47233;
 }
 
