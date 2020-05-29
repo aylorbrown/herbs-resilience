@@ -1,5 +1,7 @@
 ### Herbs for Resilience 
 
+![Demo Gif](assets/demo.gif)
+
 ### Project Description 
 
 
