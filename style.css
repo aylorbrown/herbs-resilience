@@ -18,6 +18,7 @@
 body {
   /* height 100% of the browser + 10 sections at 1500px minus one for the first visible one to scroll into   */
   height: calc(100vh + 13500px);
+  cursor: url('assets/heal-cursor.png'), auto;
 }
 
 section {
@@ -70,6 +71,11 @@ p {
     text-align: justify;
 }
 
+p::selection, h1::selection {
+  background-color: #d47233;
+  color: #f9f6de;
+}
+
 a.repo {
   font-family: "Gangster Grotesk Bold";
   font-size: 14px;
@@ -104,3 +110,4 @@ div:last-child {
   left: auto;
   right: 0;
 }
+
