@@ -45,6 +45,13 @@ div {
     flex-direction: column;  
 }
 
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
 h1 {
     font-family: "Savate Regular";
     color: #291cf5;
@@ -67,6 +74,7 @@ p.footer {
     font-size: 12px;
     
 }
+
 
 img.poppy {
   border: 5px solid #d47233;
